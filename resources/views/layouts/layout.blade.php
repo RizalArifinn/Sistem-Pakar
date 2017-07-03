@@ -47,20 +47,6 @@
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="<?= url('/') ?>">Home</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kerusakan <span class="caret"></span></a>
-                            <ul class="dropdown-menu" style="width:200px;">
-                                <a href="<?= url('diagnosis/Q001') ?>" class="list-group-item">Mesin Tidak Mau Hidup Atau Sulit Di Hidupkan</a>
-                                <a href="<?= url('diagnosis/Q008') ?>" class="list-group-item">Kendala Pada Gigi Rotari Atau Kopling</a>
-                                <a href="<?= url('diagnosis/Q013') ?>" class="list-group-item">Mesin Kekurangan Daya</a>
-                                <a href="<?= url('diagnosis/Q021') ?>" class="list-group-item">Kendala Pada Karburator Dan Sistem Bahan Bakar</a>
-                                <a href="<?= url('diagnosis/Q029') ?>" class="list-group-item">Kendala Pada Silinder Dan Klep</a>
-                                <a href="<?= url('diagnosis/Q034') ?>" class="list-group-item">Kendala Pada Pengendalian Kemudi</a>
-                                <a href="<?= url('diagnosis/Q038') ?>" class="list-group-item">Kendala Pada Alternator Atau Kopling Starter Atau Penegang Rantai Mesin</a>
-                                <a href="<?= url('diagnosis/Q041') ?>" class="list-group-item">Kendala Pada Performa Jelek Kecepatan Rendah</a>
-                                <a href="<?= url('diagnosis/Q045') ?>" class="list-group-item">Kendala Pada Performa Jelek Kecepatan Tinggi</a>
-                            </ul>
-                        </li>
                         <li><a href="<?= url('/tentang') ?>">Tentang</a></li>
                     </ul>
                 </div><!-- /.nav-collapse -->
